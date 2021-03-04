@@ -1,0 +1,29 @@
+.footerScreen__container{
+    background-color: $secondary-dark;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.footerScreen__row{
+    display: flex;
+    margin-top: 40px;
+}
+
+.footerScreen__row img{
+    max-width: 24px;
+    max-height: 24px;
+}
+.footerScreen__row p{
+    font-size: 24px;
+    margin-left: 24px;
+    font-weight: bold;
+}
+
+.footerScreen__copyright{
+    font-size: 14px;
+    margin-top: 58px;
+}

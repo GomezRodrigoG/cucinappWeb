@@ -1,0 +1,78 @@
+@font-face{
+    font-family: 'SF Pro Display Heavy';
+    src: url('../../fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Heavy.otf');
+}
+
+@media only screen and (min-width: 1024px){
+    .title{
+        font-size: 56px;
+    }
+}
+
+@media only screen and (min-width: 1360px){
+    .title{
+        font-size: 64px;
+    }
+
+    .col-md-12{
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .title{
+        font-size: $bigTitle;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .font-size-lg-100{
+        font-size: 100px;
+    }
+
+    .col-lg-10{
+
+    }
+}
+
+.welcomeScreen__leftColumn p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.welcome{
+    background-color: $primary;
+    color: white;
+    height: 70vh;
+    padding-left: $general-padding;
+    padding-right: $general-padding;
+    display: flex;
+    @media only screen and (min-width: 1360px){
+        padding-top: 50px;
+    }
+}
+
+.welcome2{
+    @media only screen and (min-width: 1920){
+        padding-top: 200px;
+    }
+}
+
+.title{
+    font-family: 'SF Pro Display Heavy';
+    letter-spacing: 2px;
+}
+
+.welcomeScreen__googlePlayLogo{
+    width: 300px;
+    position: relative;
+    left: -20px;
+
+}
+
+.welcomeScreen__rightPhoto{
+    position: relative;
+    z-index: 100;
+    width: 737px !important;
+    height: 813px !important;
+}

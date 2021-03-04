@@ -1,0 +1,35 @@
+.downloadScreen__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.downloadScreen__container p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.downloadScreen_button {
+    background-color: $primary;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.downloadScreen_button p {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.downloadScreen__clouds{
+    position: relative;
+    bottom: -90px;
+}

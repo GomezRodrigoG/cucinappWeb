@@ -1,0 +1,61 @@
+.chefScreen__screen{   
+    background-image:
+        linear-gradient(
+            rgba(69, 79, 99, 0.9),
+            rgba(69, 79, 99, 0.9)
+        ),
+        url(../../assets/chef.jpg);
+    background-size: cover;
+    height: 160vh;
+    position: relative;
+    width: 100vw;
+}
+
+.chefScreen__clouds1{
+    position: relative;
+    top: -140px;
+}
+
+.chefScreen__clouds2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.chefScreen__body{
+    padding-left: $general-padding;
+    padding-right: $general-padding;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chefScreen_cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chefScreen__individualCard{
+    margin-top: 55px;
+    margin-left: 55px;
+    width: 500px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: $secondary-dark;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.chefScreen__cardTitle{
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.chefScreen__cardText{
+    font-size: 26px;
+}

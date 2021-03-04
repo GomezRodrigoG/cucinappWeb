@@ -1,0 +1,63 @@
+@font-face{
+    font-family: 'SF Pro Display Heavy';
+    src: url('../../fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Heavy.otf');
+}
+
+.infoScreen__screen{
+    background-color: $custom-white;
+    padding-left: $general-padding;
+    padding-right: $general-padding;
+    padding-top: 150px;
+}
+
+.infoScreen__icon{
+    background-color: white;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 3px solid $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $secondary-dark;
+}
+
+.infoScreen__containerCard{
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.infoScreen__containerText{
+    margin-left: 60px;
+    margin-bottom: 15px;
+    max-width: 547px;
+    min-height: 330px;
+}
+
+.infoScreen__containerText h6{
+    font-size: 36px;
+    font-family: 'SF Pro Display Heavy';
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.infoScreen__containerText p{
+    font-size: 26px;
+} 
+
+.infoScreen__img{
+    max-width: 518px;
+    max-height: 656px;
+    position: absolute;
+    right: 16%;
+}
+
+.infoScreen__containerSection{
+    display: flex;
+}
+
+.infoScreen__clouds{
+    position: relative;
+    bottom: 140px;;
+}
