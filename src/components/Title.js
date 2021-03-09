@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export const Title = ({ title, span, blackTitle = true, maxWidth}) => {
+export const Title = ({ title, span, blackTitle = true, customClassName}) => {
     return (
-        <div>
+        <div >
             <h2 
-                className="general__title"
+                className={ customClassName }
+                data-aos="fade-down"
                 style={{
                     color: blackTitle ? "black" : "white",
-                    width: maxWidth ? 700 : null
                 }}
             >
                 {
@@ -24,4 +24,5 @@ export const Title = ({ title, span, blackTitle = true, maxWidth}) => {
 
 Title.propTypes = {
     title: PropTypes.string.isRequired,
+    customClassName: PropTypes.string.isRequired,
 };

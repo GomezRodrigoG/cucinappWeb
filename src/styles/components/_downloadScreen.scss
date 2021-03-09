@@ -7,29 +7,46 @@
 
 .downloadScreen__container p {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5em;
+}
+
+.downloadScreen__container a {
+    & :hover{
+        background-color: #FF544B;
+        width:  26em;
+        height: 6.7em;
+    }
 }
 
 .downloadScreen_button {
+    transition: all 0.3s;
+
     background-color: $primary;
-    width: 400px;
-    height: 100px;
+    width:  25em;
+    height: 6.25em;
     border-radius: 5px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 6.25em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .downloadScreen_button p {
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 2.25em;
+    pointer-events: none;
 }
 
 .downloadScreen__clouds{
     position: relative;
-    bottom: -90px;
+    bottom: -5.62em;
+}
+
+.downloadScreen__textAndButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

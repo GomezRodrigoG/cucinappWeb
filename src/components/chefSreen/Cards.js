@@ -7,26 +7,30 @@ const text3 = "También vas a poder llevar un control de cuantas calorías conti
 const text4 = "Vas a poder ver el listado completo de los productos que te hacen falta para ponerte manos a la obra en la cocina."
 
 export const Cards = () => {
+
     return (
-        <div className="chefScreen_cards">
+        <div
+            data-aos="fade-down"
+            className="chefScreen_cards"
+        >
             <DescriptionCard
                 title=" diaria"
-                spanTitle={<span className="general__textPrimaryColor">Organización</span>}
+                spanTitle={<span className="general__textPrimaryColor individualCard1">Organización</span>}
                 text={ text1 }
             />
             <DescriptionCard
                 title=" papel"
-                spanTitle={<span className="general__textPrimaryColor">No más</span>}
+                spanTitle={<span className="general__textPrimaryColor individualCard2">No más</span>}
                 text= { text2 }
             />
             <DescriptionCard
                 title=" tus calorías"
-                spanTitle={<span className="general__textPrimaryColor">Controlá</span>}
+                spanTitle={<span className="general__textPrimaryColor individualCard3">Controlá</span>}
                 text= { text3 }
             />
             <DescriptionCard
                 title="Ir de "
-                spanTitle={<span className="general__textPrimaryColor">compras</span>}
+                spanTitle={<span className="general__textPrimaryColor individualCard4">compras</span>}
                 text= { text4 }
                 firstSpan= { true }
             />

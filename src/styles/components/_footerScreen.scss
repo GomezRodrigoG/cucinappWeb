@@ -10,20 +10,21 @@
 
 .footerScreen__row{
     display: flex;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .footerScreen__row img{
-    max-width: 24px;
+    max-width:  24px;
     max-height: 24px;
 }
+
 .footerScreen__row p{
-    font-size: 24px;
-    margin-left: 24px;
+    font-size:   1.5em;
+    margin-left: 1.5rem;
     font-weight: bold;
 }
 
 .footerScreen__copyright{
-    font-size: 14px;
-    margin-top: 58px;
+    font-size:  0.87em;
+    margin-top: 3.62rem;
 }

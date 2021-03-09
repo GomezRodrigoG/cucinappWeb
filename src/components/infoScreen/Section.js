@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 import { InfoCard } from './InfoCard';
 
 export const Section = ({ icon1, icon2 ,title1 ,title2, text1, text2, img }) => {
     return (
-        <div className="infoScreen__containerSection">
+        <div 
+            className="infoScreen__containerSection"
+            data-aos="fade-left"
+        >
             <div>
                 <InfoCard 
                     icon={ icon1 } 
@@ -16,7 +19,7 @@ export const Section = ({ icon1, icon2 ,title1 ,title2, text1, text2, img }) => 
                     text={ text2 }
                 />
             </div>
-            <div className="infoScreen__img">
+            <div>
                 { img }
             </div>
         </div>

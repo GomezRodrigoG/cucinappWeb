@@ -5,16 +5,15 @@
 
 .infoScreen__screen{
     background-color: $custom-white;
-    padding-left: $general-padding;
-    padding-right: $general-padding;
-    padding-top: 150px;
+    padding-top: 9.37em;
+    font-size: 1em;
 }
 
 .infoScreen__icon{
     background-color: white;
-    padding: 20px;
-    width: 60px;
-    height: 60px;
+    padding: 1.25em;
+    width:   3.75em;
+    height:  3.75em;
     border-radius: 100%;
     border: 3px solid $primary;
     display: flex;
@@ -25,39 +24,40 @@
 
 .infoScreen__containerCard{
     display: flex;
-    margin-bottom: 35px;
+    margin-bottom: 2.1875em;
 }
 
 .infoScreen__containerText{
-    margin-left: 60px;
-    margin-bottom: 15px;
-    max-width: 547px;
-    min-height: 330px;
+    margin-left:   3.75em;
+    margin-bottom: 0.93em;
+    max-width:  34.18em;
+    min-height: 20.62em;
 }
 
 .infoScreen__containerText h6{
-    font-size: 36px;
     font-family: 'SF Pro Display Heavy';
-    margin-bottom: 40px;
-    margin-top: 10px;
+    font-size:     2.25em;
+    margin-bottom: 2.1rem;
+    margin-top:    0.625rem;
 }
 
 .infoScreen__containerText p{
-    font-size: 26px;
+    font-size: 1.6em;
 } 
 
 .infoScreen__img{
-    max-width: 518px;
-    max-height: 656px;
+    max-width:  32.37em !important;
+    max-height: 41em !important;
     position: absolute;
     right: 16%;
 }
 
 .infoScreen__containerSection{
     display: flex;
+    justify-content: space-around;
 }
 
 .infoScreen__clouds{
     position: relative;
-    bottom: 140px;;
+    bottom: 8.75em;
 }

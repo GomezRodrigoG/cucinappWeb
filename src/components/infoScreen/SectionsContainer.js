@@ -25,7 +25,7 @@ export const SectionsContainer = () => {
                 title2= { section1Title2 }
                 text1= { section1Text1 }
                 text2= { section1Text2 }
-                img= { <img src={ img1 } alt=""/> }
+                img= { <img src={ img1 } alt="" className="infoScreen__img"/> }
             />
             <Section 
                 icon1={ <Icon path={ mdiCalendarToday } />}
@@ -34,8 +34,8 @@ export const SectionsContainer = () => {
                 title2= { section2Title2 }
                 text1= {  section2Text1 }
                 text2= {  section2Text2 }
-                img= { <img src={ img2 } alt=""/> }
+                img= { <img src={ img2 } alt="" className="infoScreen__img"/> }
             />
         </div>
-    )
-}
+    );
+};

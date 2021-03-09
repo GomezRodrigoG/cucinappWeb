@@ -5,5 +5,5 @@ import './styles/styles.scss';
 
 ReactDOM.render(
     <CucinappScreen />,
-  document.getElementById('root')
+    document.getElementById('root')
 );

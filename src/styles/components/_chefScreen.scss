@@ -6,14 +6,13 @@
         ),
         url(../../assets/chef.jpg);
     background-size: cover;
-    height: 160vh;
     position: relative;
     width: 100vw;
 }
 
 .chefScreen__clouds1{
     position: relative;
-    top: -140px;
+    top: -8.75em;
 }
 
 .chefScreen__clouds2{
@@ -23,24 +22,40 @@
 }
 
 .chefScreen__body{
-    padding-left: $general-padding;
-    padding-right: $general-padding;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .chefScreen_cards{
-    display: flex;
-    flex-wrap: wrap;
+    margin-bottom: 25rem;
+    display: grid;
+    grid-gap: 2.5em;
+    grid-template-columns: 31.25em 31.25em;
+    grid-template-rows: auto;
+    grid-template-areas: "individualCard1 individualCard2""individualCard3 individualCard4";
+}
+
+.individualCard1{
+    grid-area: individualCard1;
+}
+
+.individualCard2{
+    grid-area: individualCard2;
+}
+
+.individualCard3{
+    grid-area: individualCard3;
+}
+
+.individualCard4{
+    grid-area: individualCard4;
 }
 
 .chefScreen__individualCard{
-    margin-top: 55px;
-    margin-left: 55px;
-    width: 500px;
-    height: 220px;
+    padding-bottom: 1.25rem;
     border-radius: 20px;
     background-color: $secondary-dark;
     color: white;
@@ -51,11 +66,11 @@
 }
 
 .chefScreen__cardTitle{
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: bold;
-    padding-top: 25px;
+    padding-top: 1.56rem;
 }
 
 .chefScreen__cardText{
-    font-size: 26px;
+    font-size: 1.62em;
 }

@@ -45,5 +45,205 @@ a{
 }
 
 .clouds{
-    max-width: 100vw;
+    width: 100vw;
+}
+// 4k
+@media (max-width:2561px ) and (min-width:1921px){
+    body{
+        font-size: 20px;
+    }
+
+    .title{
+        min-width: 30.8rem !important;
+    }
+
+    .general__titleMaxWidth{
+        width: 48.75rem !important;
+    }
+
+    .welcomeScreen__rightPhoto{
+        width:  54.185em !important;
+        height: 58.935em !important;
+    }
+    
+    .infoScreen__clouds{
+        bottom: 9.75em !important;
+    }
+
+    .infoScreen__img{
+        min-height: 44em !important;
+        min-width:  35.37em !important;
+        right: 16%;
+    }
+}
+//large laptop
+@media (max-width:1441px){
+    body{
+        font-size: 14px;
+    }
+
+    .chefScreen__clouds1{
+        top: -7.15em !important;
+    }
+
+    .infoScreen__screen{
+        font-size: 12px !important;
+    }
+
+    .infoScreen__clouds{
+        bottom: 6.75rem !important;
+    }
+
+    .chefScreen_cards{
+        margin-bottom: 18em !important;
+    }
+}
+// hd
+@media (max-width: 1361px){
+    .welcomeScreen__rightPhoto{
+        width:  50.185em !important;
+        height: 54.935em !important;
+    }
+}
+//laptop
+@media (max-width: 1025px){
+    body{
+        font-size: 12px;
+    }
+
+    .welcomeScreen__rightPhoto{
+        width:  44.185em !important;
+        height: 48.935em !important;
+    }
+
+    .title{
+        max-width: 19.8rem !important;
+    }
+
+    .chefScreen__clouds1{
+        top: -6.15em !important;
+    }
+
+    .infoScreen__screen{
+        font-size: 9px !important;
+    }
+
+    .infoScreen__clouds{
+        bottom: 4.75rem !important;
+    }
+}
+//tablet
+@media (max-width: 769px){
+    body{
+        font-size: 9px;
+    }
+
+    .title{
+        max-width: 14.8rem !important;
+    }
+
+    .chefScreen_cards{
+        margin-bottom: 20em !important;
+    }
+
+    .infoScreen__screen{
+        font-size: 7px !important;
+    }
+
+    .infoScreen__clouds{
+        bottom: 3.75rem !important;
+    }
+
+    .footerScreen__container{
+        height: 20vh !important;
+    }
+
+    .footerScreen__copyright{
+        margin-top: 2.32rem !important;
+    }
+}
+//mobile
+@media (max-width:426px){
+    .welcome{
+        grid-template-columns: 100% !important;
+        grid-template-areas: "leftColumn" "img" !important;
+    }
+
+    .welcomeScreen__leftColumn{
+        justify-self: center !important;
+    }
+
+    .welcomeScreen__rightPhoto{
+        justify-self: end;
+        left:   0em !important;
+        bottom: -4em !important;
+    }
+
+    .chefScreen_cards{
+        grid-template-columns: 100% !important;
+        grid-template-areas: "individualCard1" "individualCard2" "individualCard3" "individualCard4" !important;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10em !important;
+    }
+
+    .chefScreen__clouds1{
+        top: -3.15em !important;
+    }
+
+    .infoScreen__containerSection{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .infoScreen__img{
+        position: relative !important;
+        right: 0% !important;
+        z-index: 1;
+    }
+
+    .general__titleMaxWidth{
+        width: auto !important;
+    }
+
+    .downloadScreen__clouds{
+        bottom: -2.62em !important;
+    }
+
+    .customSizeTitle{
+        font-size: 3.3em !important;
+    }
+}
+// mobile Small
+@media (max-width:321px){
+    body{
+        font-size: 7px !important;
+    }
+
+    .infoScreen__clouds{
+        bottom: 7.75em !important;
+    }
+
+    .footerScreen__container{
+        height: 15vh !important;
+    }
+
+    .footerScreen__copyright{
+        margin-top: 1.82rem !important;
+    }
+
+    .footerScreen__row img{
+        max-width:  14px !important;
+        max-height: 14px !important;
+    }
+
+    .infoScreen__containerCard{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .chefScreen__body{
+        margin-top: 20px;
+    }
 }

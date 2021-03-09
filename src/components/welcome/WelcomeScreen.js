@@ -4,12 +4,12 @@ import rigthPhoto from '../../assets/RightPhoto.png';
 
 export const WelcomeScreen = () => {
     return (
-        <div className="welcome col-lg-12 col-md-12">
+        <div className="welcome">
             <LeftColumn />
             <img 
                 src={ rigthPhoto }
                 alt="phoneExamples"
-                className="welcomeScreen__rightPhoto"
+                className="welcomeScreen__rightPhoto animate__animated animate__bounceInRight"
             />
         </div>
     );

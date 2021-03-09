@@ -1,78 +1,49 @@
-@font-face{
-    font-family: 'SF Pro Display Heavy';
-    src: url('../../fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Heavy.otf');
-}
-
-@media only screen and (min-width: 1024px){
-    .title{
-        font-size: 56px;
-    }
-}
-
-@media only screen and (min-width: 1360px){
-    .title{
-        font-size: 64px;
-    }
-
-    .col-md-12{
-        font-size: 50px;
-    }
-}
-@media only screen and (min-width: 1920px){
-    .title{
-        font-size: $bigTitle;
-    }
-}
-
-@media only screen and (min-width: 1920px){
-    .font-size-lg-100{
-        font-size: 100px;
-    }
-
-    .col-lg-10{
-
-    }
-}
-
-.welcomeScreen__leftColumn p{
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding-top: 30px;
-}
-
 .welcome{
     background-color: $primary;
     color: white;
-    height: 70vh;
-    padding-left: $general-padding;
-    padding-right: $general-padding;
-    display: flex;
-    @media only screen and (min-width: 1360px){
-        padding-top: 50px;
-    }
-}
-
-.welcome2{
-    @media only screen and (min-width: 1920){
-        padding-top: 200px;
-    }
+    padding-top: 3.12em;
+    display: grid;
+    grid-template-columns: 40% 45%;
+    grid-gap: 2.5em;
+    grid-template-rows: auto;
+    grid-template-areas: "leftColumn img";
+    justify-content: space-evenly;
 }
 
 .title{
-    font-family: 'SF Pro Display Heavy';
     letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 4.5em;
+    max-width: 24.8rem;
+}
+
+.welcomeScreen__leftColumn{
+    grid-area: leftColumn;
+    justify-self: end;
+}
+
+.welcomeScreen__leftColumn p{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 1.87rem;
 }
 
 .welcomeScreen__googlePlayLogo{
-    width: 300px;
+    width: 18.75em;
     position: relative;
-    left: -20px;
-
+    left: -1.25em;
 }
 
 .welcomeScreen__rightPhoto{
+    left:   -3.75em;
+    bottom: -5.625em;
     position: relative;
-    z-index: 100;
-    width: 737px !important;
-    height: 813px !important;
+    z-index: 1;
+    grid-area: img;
+}
+
+.welcomeScreen__cucinappLogo{
+    width:  5em !important;
+    height: 5em !important;
+    margin-bottom: 1.87em;
 }
