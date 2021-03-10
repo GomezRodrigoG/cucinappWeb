@@ -11,7 +11,8 @@ export const CucinappScreen = () => {
     useEffect(() => {
         Aos.init( { 
             duration:2000,
-            once: true
+            once: true,
+            disable: 'mobile'
         } );
     }, [] );
 
